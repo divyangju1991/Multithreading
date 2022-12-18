@@ -1,0 +1,23 @@
+package tricky;
+
+public class B implements Runnable {
+
+	private static Object lock = new Object();
+	
+	public synchronized void m1(){
+		try {
+			System.out.println("Before Sleep Thread Name : "+Thread.currentThread().getName());
+			lock.wait();
+			System.out.println("After Sleep Thread Name : "+Thread.currentThread().getName());
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		m1();
+	} 
+}

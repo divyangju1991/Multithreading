@@ -1,0 +1,8 @@
+package tricky;
+
+public class A {
+
+	public synchronized void m1(){
+		Thread.sleep(5000);
+	} 
+}

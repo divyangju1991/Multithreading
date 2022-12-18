@@ -1,0 +1,14 @@
+package tricky;
+
+public class A {
+
+	public synchronized void m1(){
+		try {
+			System.out.println("Thread Name : "+Thread.currentThread().getName());
+			Thread.sleep(5000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	} 
+}

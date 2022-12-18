@@ -1,10 +1,12 @@
 package basics;
 
+import java.util.concurrent.atomic.AtomicInteger;
+
 class Printer implements Runnable {
-	static int counter = 1;
+	static AtomicInteger counter = new AtomicInteger(1);
 	
 	public void printer(){
-		System.out.println(Thread.currentThread().getName() +" : "+ (counter++));
+		System.out.println(Thread.currentThread().getName() +" : "+ (counter.getAndIncrement()));
 	}
 	
 	@Override

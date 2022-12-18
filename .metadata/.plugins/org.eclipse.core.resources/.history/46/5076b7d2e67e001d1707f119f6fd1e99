@@ -1,0 +1,17 @@
+package tricky;
+
+public class ThreadsCalling {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		A o1 = new A();
+		A o2 = new A();
+		
+		o1.m1();
+		o2.m1();
+		
+		
+	}
+
+}
