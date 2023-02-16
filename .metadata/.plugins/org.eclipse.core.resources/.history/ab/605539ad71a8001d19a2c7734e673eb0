@@ -1,0 +1,15 @@
+package tricky;
+
+public class TestA implements Runnable {
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public syncronized a(){
+		
+	}
+	
+}

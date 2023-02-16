@@ -1,0 +1,29 @@
+package tricky;
+
+public class TestA implements Runnable {
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		if(Thread.currentThread().getName().equals("Thread-0")){
+			a();
+		} else if(Thread.currentThread().getName().equals("Thread-1")){
+			a();
+		} else {
+			c();
+		}
+	}
+
+	public synchronized void a(){
+		System.out.println("A");
+	}
+	
+public synchronized void b(){
+	System.out.println("B");
+	}
+
+public synchronized void c(){
+	System.out.println("C");
+}
+	
+}

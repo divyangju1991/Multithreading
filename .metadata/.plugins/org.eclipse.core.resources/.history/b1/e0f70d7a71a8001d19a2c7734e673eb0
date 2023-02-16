@@ -1,0 +1,6 @@
+package tricky;
+
+public class TestA implements Runnable {
+
+	
+}

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_YA5UoX6sEe2HZ-W8s-YzOg" elementId="org.eclipse.e4.legacy.ide.application" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_YA5Uon6sEe2HZ-W8s-YzOg" bindingContexts="_YA5UpH6sEe2HZ-W8s-YzOg">
-  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;PrintNumbersSequentially.java&quot; tooltip=&quot;CustomThread/src/basics/PrintNumbersSequentially.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/CustomThread/src/basics/PrintNumbersSequentially.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;A.java&quot; tooltip=&quot;CustomThread/src/tricky/A.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/CustomThread/src/tricky/A.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;B.java&quot; tooltip=&quot;CustomThread/src/tricky/B.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/CustomThread/src/tricky/B.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;ThreadsCalling.java&quot; tooltip=&quot;CustomThread/src/tricky/ThreadsCalling.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/CustomThread/src/tricky/ThreadsCalling.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;PrintNumbersOddEvenOneByOne.java&quot; tooltip=&quot;CustomThread/src/basics/PrintNumbersOddEvenOneByOne.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/CustomThread/src/basics/PrintNumbersOddEvenOneByOne.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;PrintNumbersOddEven.java&quot; tooltip=&quot;CustomThread/src/basics/PrintNumbersOddEven.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/CustomThread/src/basics/PrintNumbersOddEven.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
+  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;ThreadDeadLockSolun2.java&quot; tooltip=&quot;CustomThread/src/deadLock/ThreadDeadLockSolun2.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/CustomThread/src/deadLock/ThreadDeadLockSolun2.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;ThreadDeadLockApp.java&quot; tooltip=&quot;CustomThread/src/deadLock/ThreadDeadLockApp.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/CustomThread/src/deadLock/ThreadDeadLockApp.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;TestA.java&quot; tooltip=&quot;CustomThread/src/tricky/TestA.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/CustomThread/src/tricky/TestA.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;TestImpl.java&quot; tooltip=&quot;CustomThread/src/tricky/TestImpl.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/CustomThread/src/tricky/TestImpl.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;A.java&quot; tooltip=&quot;CustomThread/src/tricky/A.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/CustomThread/src/tricky/A.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;ThreadsCalling.java&quot; tooltip=&quot;CustomThread/src/tricky/ThreadsCalling.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/CustomThread/src/tricky/ThreadsCalling.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;PrintNumbersOddEven.java&quot; tooltip=&quot;CustomThread/src/basics/PrintNumbersOddEven.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/CustomThread/src/basics/PrintNumbersOddEven.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;PrintNumbersSequentially.java&quot; tooltip=&quot;CustomThread/src/basics/PrintNumbersSequentially.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/CustomThread/src/basics/PrintNumbersSequentially.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;B.java&quot; tooltip=&quot;CustomThread/src/tricky/B.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/CustomThread/src/tricky/B.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;PrintNumbersOddEvenOneByOne.java&quot; tooltip=&quot;CustomThread/src/basics/PrintNumbersOddEvenOneByOne.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/CustomThread/src/basics/PrintNumbersOddEvenOneByOne.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
   <tags>activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
   <tags>ModelMigrationProcessor.001</tags>
   <children xsi:type="basic:TrimmedWindow" xmi:id="_YA5Uon6sEe2HZ-W8s-YzOg" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_Yc8Xc36sEe2HZ-W8s-YzOg" label="%trimmedwindow.label.eclipseSDK" x="0" y="0" width="1024" height="768">
@@ -78,7 +78,7 @@
               <children xsi:type="advanced:Placeholder" xmi:id="_Yr1vGX6sEe2HZ-W8s-YzOg" elementId="org.eclipse.jdt.ui.TypeHierarchy" toBeRendered="false" ref="_Yri0P36sEe2HZ-W8s-YzOg"/>
               <children xsi:type="advanced:Placeholder" xmi:id="_Yr1vGn6sEe2HZ-W8s-YzOg" elementId="org.eclipse.jdt.ui.PackagesView" toBeRendered="false" ref="_YrslIH6sEe2HZ-W8s-YzOg"/>
             </children>
-            <children xsi:type="basic:PartSashContainer" xmi:id="_Yr1vG36sEe2HZ-W8s-YzOg" containerData="7500" selectedElement="_Yr1vIX6sEe2HZ-W8s-YzOg">
+            <children xsi:type="basic:PartSashContainer" xmi:id="_Yr1vG36sEe2HZ-W8s-YzOg" containerData="7500" selectedElement="_Yr1vHH6sEe2HZ-W8s-YzOg">
               <children xsi:type="basic:PartSashContainer" xmi:id="_Yr1vHH6sEe2HZ-W8s-YzOg" containerData="7000" selectedElement="_Yr1vHX6sEe2HZ-W8s-YzOg" horizontal="true">
                 <children xsi:type="advanced:Placeholder" xmi:id="_Yr1vHX6sEe2HZ-W8s-YzOg" elementId="org.eclipse.ui.editorss" containerData="7771" ref="_YrZDIH6sEe2HZ-W8s-YzOg"/>
                 <children xsi:type="basic:PartStack" xmi:id="_Yr1vHn6sEe2HZ-W8s-YzOg" elementId="topRight" containerData="2229" selectedElement="_Yr1vIH6sEe2HZ-W8s-YzOg">
@@ -107,9 +107,10 @@
           </children>
         </children>
       </children>
-      <children xsi:type="basic:PartStack" xmi:id="_Yc8XdX6sEe2HZ-W8s-YzOg" elementId="stickyFolderRight" toBeRendered="false" containerData="2500">
+      <children xsi:type="basic:PartStack" xmi:id="_Yc8XdX6sEe2HZ-W8s-YzOg" elementId="stickyFolderRight" visible="false" containerData="2500" selectedElement="_Yc8Xd36sEe2HZ-W8s-YzOg">
+        <tags>Minimized</tags>
         <children xsi:type="advanced:Placeholder" xmi:id="_Yc8Xdn6sEe2HZ-W8s-YzOg" elementId="org.eclipse.help.ui.HelpView" toBeRendered="false" ref="_Yc8XcH6sEe2HZ-W8s-YzOg"/>
-        <children xsi:type="advanced:Placeholder" xmi:id="_Yc8Xd36sEe2HZ-W8s-YzOg" elementId="org.eclipse.ui.internal.introview" toBeRendered="false" ref="_Yc8XcX6sEe2HZ-W8s-YzOg"/>
+        <children xsi:type="advanced:Placeholder" xmi:id="_Yc8Xd36sEe2HZ-W8s-YzOg" elementId="org.eclipse.ui.internal.introview" ref="_Yc8XcX6sEe2HZ-W8s-YzOg"/>
         <children xsi:type="advanced:Placeholder" xmi:id="_Yc8XeH6sEe2HZ-W8s-YzOg" elementId="org.eclipse.ui.cheatsheets.views.CheatSheetView" toBeRendered="false" ref="_Yc8Xcn6sEe2HZ-W8s-YzOg"/>
       </children>
     </children>
@@ -129,7 +130,7 @@
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
       </menus>
-      <toolbar xmi:id="_ZAZp0X6sEe2HZ-W8s-YzOg" elementId="org.eclipse.ui.internal.introview" visible="false"/>
+      <toolbar xmi:id="_ZAZp0X6sEe2HZ-W8s-YzOg" elementId="org.eclipse.ui.internal.introview"/>
     </sharedElements>
     <sharedElements xsi:type="basic:Part" xmi:id="_Yc8Xcn6sEe2HZ-W8s-YzOg" elementId="org.eclipse.ui.cheatsheets.views.CheatSheetView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Cheat Sheets" iconURI="platform:/plugin/org.eclipse.ui.cheatsheets/icons/view16/cheatsheet_view.gif" tooltip="" closeable="true">
       <persistedState key="originalCompatibilityViewClass" value="org.eclipse.ui.internal.cheatsheets.views.CheatSheetView"/>
@@ -138,7 +139,7 @@
       <tags>categoryTag:Help</tags>
     </sharedElements>
     <sharedElements xsi:type="advanced:Area" xmi:id="_YrZDIH6sEe2HZ-W8s-YzOg" elementId="org.eclipse.ui.editorss" selectedElement="_YrZDIX6sEe2HZ-W8s-YzOg">
-      <children xsi:type="basic:PartStack" xmi:id="_YrZDIX6sEe2HZ-W8s-YzOg" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_DQIUEH6vEe2HZ-W8s-YzOg">
+      <children xsi:type="basic:PartStack" xmi:id="_YrZDIX6sEe2HZ-W8s-YzOg" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_qcpuwK2SEe2dqrGgeuDfDw">
         <tags>org.eclipse.e4.primaryDataStack</tags>
         <tags>EditorStack</tags>
         <tags>active</tags>
@@ -149,13 +150,49 @@
           <tags>removeOnHide</tags>
         </children>
         <children xsi:type="basic:Part" xmi:id="_SztMIH6uEe2HZ-W8s-YzOg" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="PrintNumbersOddEven.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;PrintNumbersOddEven.java&quot; partName=&quot;PrintNumbersOddEven.java&quot; title=&quot;PrintNumbersOddEven.java&quot; tooltip=&quot;CustomThread/src/basics/PrintNumbersOddEven.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/CustomThread/src/basics/PrintNumbersOddEven.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;585&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;PrintNumbersOddEven.java&quot; partName=&quot;PrintNumbersOddEven.java&quot; title=&quot;PrintNumbersOddEven.java&quot; tooltip=&quot;CustomThread/src/basics/PrintNumbersOddEven.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/CustomThread/src/basics/PrintNumbersOddEven.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;12&quot; selectionOffset=&quot;356&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
           <tags>removeOnHide</tags>
         </children>
         <children xsi:type="basic:Part" xmi:id="_DQIUEH6vEe2HZ-W8s-YzOg" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="PrintNumbersOddEvenOneByOne.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
           <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;PrintNumbersOddEvenOneByOne.java&quot; partName=&quot;PrintNumbersOddEvenOneByOne.java&quot; title=&quot;PrintNumbersOddEvenOneByOne.java&quot; tooltip=&quot;CustomThread/src/basics/PrintNumbersOddEvenOneByOne.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/CustomThread/src/basics/PrintNumbersOddEvenOneByOne.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;639&quot; selectionTopPixel=&quot;100&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
+          <tags>removeOnHide</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_0P7awKhwEe26V87hwpBV5g" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="ThreadsCalling.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;ThreadsCalling.java&quot; partName=&quot;ThreadsCalling.java&quot; title=&quot;ThreadsCalling.java&quot; tooltip=&quot;CustomThread/src/tricky/ThreadsCalling.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/CustomThread/src/tricky/ThreadsCalling.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;0&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
+          <tags>removeOnHide</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_YfVMMKhxEe26V87hwpBV5g" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="A.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;A.java&quot; partName=&quot;A.java&quot; title=&quot;A.java&quot; tooltip=&quot;CustomThread/src/tricky/A.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/CustomThread/src/tricky/A.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;311&quot; selectionOffset=&quot;94&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
+          <tags>removeOnHide</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_b-KDgKhxEe26V87hwpBV5g" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="TestA.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;TestA.java&quot; partName=&quot;TestA.java&quot; title=&quot;TestA.java&quot; tooltip=&quot;CustomThread/src/tricky/TestA.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/CustomThread/src/tricky/TestA.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;604&quot; selectionTopPixel=&quot;10&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
+          <tags>removeOnHide</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_t4e7EKhxEe26V87hwpBV5g" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="TestImpl.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;TestImpl.java&quot; partName=&quot;TestImpl.java&quot; title=&quot;TestImpl.java&quot; tooltip=&quot;CustomThread/src/tricky/TestImpl.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/CustomThread/src/tricky/TestImpl.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;323&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
+          <tags>removeOnHide</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_3vCHoK2OEe2dqrGgeuDfDw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="ThreadDeadLockApp.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;ThreadDeadLockApp.java&quot; partName=&quot;ThreadDeadLockApp.java&quot; title=&quot;ThreadDeadLockApp.java&quot; tooltip=&quot;CustomThread/src/deadLock/ThreadDeadLockApp.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/CustomThread/src/deadLock/ThreadDeadLockApp.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;848&quot; selectionTopPixel=&quot;253&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
+          <tags>removeOnHide</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_qcpuwK2SEe2dqrGgeuDfDw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="ThreadDeadLockSolun2.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;ThreadDeadLockSolun2.java&quot; partName=&quot;ThreadDeadLockSolun2.java&quot; title=&quot;ThreadDeadLockSolun2.java&quot; tooltip=&quot;CustomThread/src/deadLock/ThreadDeadLockSolun2.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/CustomThread/src/deadLock/ThreadDeadLockSolun2.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;439&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
           <tags>removeOnHide</tags>
@@ -339,7 +376,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_YhHs0H6sEe2HZ-W8s-YzOg" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_-7dpZ4GtEe2rb8fFJuSwFA" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_YBys_X6sEe2HZ-W8s-YzOg"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_vYukAK2OEe2dqrGgeuDfDw" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_YBys_X6sEe2HZ-W8s-YzOg"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_YhHs0X6sEe2HZ-W8s-YzOg" elementId="additions" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -369,7 +406,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_YhHs1X6sEe2HZ-W8s-YzOg" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_-7naZIGtEe2rb8fFJuSwFA" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_YByson6sEe2HZ-W8s-YzOg"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_vYxnUK2OEe2dqrGgeuDfDw" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_YByson6sEe2HZ-W8s-YzOg"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_YhHs1n6sEe2HZ-W8s-YzOg" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -409,7 +446,12 @@
         <tags>Draggable</tags>
       </children>
     </trimBars>
-    <trimBars xmi:id="_YpT_gX6sEe2HZ-W8s-YzOg" elementId="org.eclipse.ui.trim.vertical2" side="Right"/>
+    <trimBars xmi:id="_YpT_gX6sEe2HZ-W8s-YzOg" elementId="org.eclipse.ui.trim.vertical2" side="Right">
+      <children xsi:type="menu:ToolControl" xmi:id="_J1BKsK2REe2dqrGgeuDfDw" elementId="stickyFolderRight(minimized)" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.TrimStack">
+        <tags>TrimStack</tags>
+        <tags>Draggable</tags>
+      </children>
+    </trimBars>
   </children>
   <bindingTables xmi:id="_YA5Uo36sEe2HZ-W8s-YzOg" contributorURI="platform:/plugin/org.eclipse.platform" bindingContext="_YA5UpH6sEe2HZ-W8s-YzOg">
     <bindings xmi:id="_YCiTjX6sEe2HZ-W8s-YzOg" keySequence="CTRL+A" command="_YBo9Q36sEe2HZ-W8s-YzOg"/>
