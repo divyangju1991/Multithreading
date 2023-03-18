@@ -1,0 +1,13 @@
+package renetrant;
+
+public class OddPrint implements Runnable {
+
+	
+	
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+}

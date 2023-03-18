@@ -1,0 +1,8 @@
+package reneterant;
+
+public class Printer {
+
+	public static volatile int counter = 0;
+	
+	
+}

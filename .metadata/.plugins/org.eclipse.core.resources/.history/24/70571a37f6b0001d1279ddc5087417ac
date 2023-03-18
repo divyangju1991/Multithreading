@@ -1,0 +1,8 @@
+package reneterant;
+
+public class Printer {
+
+	public static AtomicInteger number = new AtomicInteger(1); 
+	
+	
+}

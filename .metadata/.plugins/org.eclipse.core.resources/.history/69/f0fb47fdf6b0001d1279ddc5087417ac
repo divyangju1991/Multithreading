@@ -1,0 +1,20 @@
+package reneterant;
+
+public class PrintSequence implements Runnable {
+
+	private Printer printer;
+	private int reminder;
+	
+	public PrintSequence(Printer printer, int reminder){
+		this.printer = printer;
+		this.reminder = reminder;
+	}
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		for(int i=0; i<5; ++i){
+			
+		}
+	}
+}

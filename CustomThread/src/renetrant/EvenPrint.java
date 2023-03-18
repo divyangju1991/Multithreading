@@ -1,0 +1,17 @@
+package renetrant;
+
+public class EvenPrint implements Runnable {
+	
+	private OddEvenImpl oddEvenImpl;
+	
+	public EvenPrint(OddEvenImpl oddEvenImpl) {
+		this.oddEvenImpl = oddEvenImpl;
+	}
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		oddEvenImpl.printEven();
+	}
+	
+}

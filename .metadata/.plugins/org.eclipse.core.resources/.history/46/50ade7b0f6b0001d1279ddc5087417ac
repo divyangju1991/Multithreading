@@ -1,0 +1,17 @@
+package reneterant;
+
+public class PrintSequence implements Runnable {
+
+	private Printer printer;
+	private int reminder;
+	
+	public PrintSequence(Printer printer, int reminder){
+		
+	}
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		
+	}
+}

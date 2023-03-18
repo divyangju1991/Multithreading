@@ -1,0 +1,26 @@
+package reneterant;
+
+import java.util.concurrent.locks.*;
+public class PrintSequenceNormal implements Runnable {
+
+	private Printer printer;
+	private int reminder;
+	private static Object object = new Object();
+	
+	public PrintSequenceNormal(Printer printer, int reminder){
+		this.printer = printer;
+		this.reminder = reminder;
+	}
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		for(int i=0; i<5; ++i){
+			synchronized(object){
+				if(i%2 != reminder){
+					object.wait();
+				}
+			}
+		}
+	}
+}

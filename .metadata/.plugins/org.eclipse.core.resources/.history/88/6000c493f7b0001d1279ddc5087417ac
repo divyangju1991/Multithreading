@@ -1,0 +1,13 @@
+package reneterant;
+
+public class PrinterApp {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Printer printer = new Printer();
+		PrintSequence odd = new PrintSequence(printer, 1);
+		PrintSequence even = new PrintSequence(printer, 1);
+		
+	}
+
+}

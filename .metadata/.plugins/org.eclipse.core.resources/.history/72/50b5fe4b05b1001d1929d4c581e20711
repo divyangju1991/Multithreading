@@ -1,0 +1,10 @@
+package renetrant;
+
+public class OddEvenImpl {
+
+	public void printEven() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

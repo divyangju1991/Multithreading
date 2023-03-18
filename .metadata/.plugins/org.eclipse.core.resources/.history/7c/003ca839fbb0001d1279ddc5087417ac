@@ -1,0 +1,21 @@
+package reneterant;
+import java.util.concurrent.atomic.*;
+
+public class Printer {
+
+	/*
+	public static AtomicInteger oddNumber = new AtomicInteger(1);
+	public static AtomicInteger evenNumber = new AtomicInteger(2);
+	*/
+	private static volatile int oddNumber = 1;
+	private static volatile int evenNumber = 2;
+	
+	public void oddPrint(){
+		System.out.println(Thread.currentThread().getName()+" "+(oddNumber.incrementAndGet()));
+	}
+	
+	public void evenPrint(){
+		evenNumber.getAndIncrement();
+		System.out.println(Thread.currentThread().getName()+" "+(evenNumber.getAndIncrement()));
+	}
+}
