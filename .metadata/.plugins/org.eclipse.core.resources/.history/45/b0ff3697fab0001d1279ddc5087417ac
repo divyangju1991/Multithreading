@@ -1,0 +1,11 @@
+package reneterant;
+import java.util.concurrent.atomic.*;
+
+public class Printer {
+
+	public static AtomicInteger number = new AtomicInteger(1); 
+	
+	public void print(){
+		System.out.println(Thread.currentThread().getName()+" "+(number.getAndIncrement()));
+	}
+}

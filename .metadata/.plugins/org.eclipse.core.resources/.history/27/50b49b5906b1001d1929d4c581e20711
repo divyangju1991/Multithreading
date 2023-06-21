@@ -1,0 +1,25 @@
+package renetrant;
+
+public class OddEvenUsingLockAndCondition {
+
+	public static void main(String[] args) {
+		  
+		  OddEvenImpl obj = new OddEvenImpl();
+		  
+		  OddPrint odd = new OddPrint(obj);
+		  EvenPrint even = new EvenPrint(obj);
+		  odd.start();
+
+		  /* *
+		   * Just starting 2nd thread after
+		   * a half second
+		   */
+		  try {
+		   Thread.sleep(500);
+		  } catch (InterruptedException e) {
+		   e.printStackTrace();
+		  }
+		  even.start();
+		 }
+	
+}

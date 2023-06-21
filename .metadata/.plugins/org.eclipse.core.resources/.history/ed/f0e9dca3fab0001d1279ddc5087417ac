@@ -1,0 +1,12 @@
+package reneterant;
+import java.util.concurrent.atomic.*;
+
+public class Printer {
+
+	public static AtomicInteger oddNumber = new AtomicInteger(1);
+	public static AtomicInteger evenNumber = new AtomicInteger(2);
+	
+	public void print(){
+		System.out.println(Thread.currentThread().getName()+" "+(number.getAndIncrement()));
+	}
+}

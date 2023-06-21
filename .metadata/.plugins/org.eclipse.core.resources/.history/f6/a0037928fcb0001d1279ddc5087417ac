@@ -1,0 +1,44 @@
+package reneterant;
+
+import java.util.concurrent.locks.*;
+public class PrintSequence implements Runnable {
+
+	private Printer printer;
+	private int reminder;
+	private static ReentrantLock lock = new ReentrantLock();
+	private static Condition oddCondition = lock.newCondition();
+	private static Condition evenCondition = lock.newCondition();
+	
+	public PrintSequence(Printer printer, int reminder){
+		this.printer = printer;
+		this.reminder = reminder;
+	}
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		for(int i=0; i<5; ++i){
+			lock.lock();
+			if(i%2 != 1){
+				try {
+					oddCondition.await();
+				} catch (InterruptedException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+				printer.oddPrint();
+				oddCondition.signal();
+			} else {
+				try {
+					evenCondition.await();
+				} catch (InterruptedException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+				printer.evenPrint();
+				evenCondition.signal();
+			}
+			lock.unlock();
+		}
+	}
+}

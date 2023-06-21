@@ -1,0 +1,54 @@
+package renetrant;
+
+import java.util.concurrent.locks.Condition;
+import java.util.concurrent.locks.Lock;
+import java.util.concurrent.locks.ReentrantLock;
+
+public class OddEvenImpl {
+	
+	private final Lock aLock = new ReentrantLock(); 
+	 
+	 // Condition for ODD block
+	 private final Condition oddCondition = aLock.newCondition(); 
+	 
+	 // Condition for EVEN block
+	 private final Condition evenCondition = aLock.newCondition();
+	 
+	 // Variable to print ODD/ EVEN numbers
+	 private volatile int counter = 1;
+
+	public void printEven() {
+		while(counter <= 10){
+			aLock.lock();
+			System.out.println((Thread.currentThread().getName())+" "+ counter++);
+			oddCondition.await();
+		}
+		
+	}
+
+	public void printOdd() {
+		while(counter <= 10) {
+			   try {
+			    // Getting lock for ODD block
+			    aLock.lock();
+			    System.out.println((Thread.currentThread().getName())+" "+ counter++);
+			    // signaling to EVEN condition 
+			    evenCondition.signal();
+			    /*
+			     * Just stopping await once reach counter to 10.
+			     * Not to odd thread to await indefinitely  
+			     */
+			    if(counter < 10) { 
+			     oddCondition.await();
+			    }
+			   } catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}finally {
+			    aLock.unlock();
+			   }
+			  }
+		
+	}
+
+}
